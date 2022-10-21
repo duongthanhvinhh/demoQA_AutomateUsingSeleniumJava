@@ -1,5 +1,5 @@
 # Default ignored files
-/shelf/
-/.idea/workspace.xml
+#/shelf/
+#/.idea/workspace.xml
 test-recordings/*.avi
 test-recordings/
