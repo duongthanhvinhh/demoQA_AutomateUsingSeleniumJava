@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-21T11:38:02 ICT" name="Command line suite" finished-at="2022-10-21T11:40:48 ICT" duration-ms="165356">
+    <groups>
+    </groups>
+    <test started-at="2022-10-21T11:38:02 ICT" name="Command line test" finished-at="2022-10-21T11:40:48 ICT" duration-ms="165356">
+      <class name="TestCases.ElementsPagesTest.CheckBoxTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:08 ICT" name="setupTest" finished-at="2022-10-21T11:39:19 ICT" duration-ms="10352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="TC_0001_Check_HomeBox_And_Verify_HomeBox_Checked()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:19 ICT" name="TC_0001_Check_HomeBox_And_Verify_HomeBox_Checked" finished-at="2022-10-21T11:39:19 ICT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_0001_Check_HomeBox_And_Verify_HomeBox_Checked -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:19 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:19 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method signature="TC_0002_CheckOfficeBox_And_Verify_OfficeBox_Checked()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:19 ICT" name="TC_0002_CheckOfficeBox_And_Verify_OfficeBox_Checked" finished-at="2022-10-21T11:39:25 ICT" duration-ms="6418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_0002_CheckOfficeBox_And_Verify_OfficeBox_Checked -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:25 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:27 ICT" duration-ms="1399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:27 ICT" name="closeBrowser" finished-at="2022-10-21T11:39:30 ICT" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.ElementsPagesTest.CheckBoxTest -->
+      <class name="TestCases.ElementsPagesTest.TextBoxTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:00 ICT" name="setupTest" finished-at="2022-10-21T11:40:12 ICT" duration-ms="12049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="TC_001_Submit_TextBox_with_fullInformation_Successfully()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:12 ICT" name="TC_001_Submit_TextBox_with_fullInformation_Successfully" description="Verify can add submit a TextBox with full valid informations" finished-at="2022-10-21T11:40:13 ICT" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Submit_TextBox_with_fullInformation_Successfully -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:13 ICT" name="refreshWindow" finished-at="2022-10-21T11:40:13 ICT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method signature="TC_002_Submit_TextBox_without_anyInformation_Successfully()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:13 ICT" name="TC_002_Submit_TextBox_without_anyInformation_Successfully" description="Verify nothing happen when click submit without any information" finished-at="2022-10-21T11:40:16 ICT" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_Submit_TextBox_without_anyInformation_Successfully -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:16 ICT" name="refreshWindow" finished-at="2022-10-21T11:40:16 ICT" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method signature="TC_003_Cannot_Submit_TextBox_with_invalidEmailFormat()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:16 ICT" name="TC_003_Cannot_Submit_TextBox_with_invalidEmailFormat" description="Verify can not submit a TextBox with  invalid email format - Missing @ character" finished-at="2022-10-21T11:40:17 ICT" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_Cannot_Submit_TextBox_with_invalidEmailFormat -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:17 ICT" name="refreshWindow" finished-at="2022-10-21T11:40:17 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method signature="TC_004_Submit_TextBox_without_FullName_Successfully()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:17 ICT" name="TC_004_Submit_TextBox_without_FullName_Successfully" description="Verify can add a TextBox without FullName" finished-at="2022-10-21T11:40:20 ICT" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_Submit_TextBox_without_FullName_Successfully -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:20 ICT" name="refreshWindow" finished-at="2022-10-21T11:40:45 ICT" duration-ms="24252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:45 ICT" name="closeBrowser" finished-at="2022-10-21T11:40:48 ICT" duration-ms="3165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.ElementsPagesTest.TextBoxTest -->
+      <class name="TestCases.ElementsPagesTest.ButtonsTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:02 ICT" name="setupTest" finished-at="2022-10-21T11:38:12 ICT" duration-ms="10130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="TC_001_Click_3Buttons_respectively()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:12 ICT" name="TC_001_Click_3Buttons_respectively" description="Click 3 buttons &#039;Double Click Me&#039;, &#039;Right Click Me&#039;, and &#039;Click Me&#039; respectively and verify all of them selected " finished-at="2022-10-21T11:38:13 ICT" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Click_3Buttons_respectively -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:13 ICT" name="refreshWindow" finished-at="2022-10-21T11:38:36 ICT" duration-ms="23318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method signature="TC_002_Click_DoubleClick()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:36 ICT" name="TC_002_Click_DoubleClick" finished-at="2022-10-21T11:38:37 ICT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_Click_DoubleClick -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:37 ICT" name="refreshWindow" finished-at="2022-10-21T11:38:37 ICT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method signature="TC_003_Click_RightClick()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:37 ICT" name="TC_003_Click_RightClick" finished-at="2022-10-21T11:38:38 ICT" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_Click_RightClick -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:38 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:05 ICT" duration-ms="27505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method signature="TC_004_Click_ClickMe()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:39:05 ICT" name="TC_004_Click_ClickMe" finished-at="2022-10-21T11:39:05 ICT" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_Click_ClickMe -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:39:05 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:05 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:39:05 ICT" name="closeBrowser" finished-at="2022-10-21T11:39:08 ICT" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.ElementsPagesTest.ButtonsTest -->
+      <class name="TestCases.ElementsPagesTest.LinksTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@1de76cc7]" started-at="2022-10-21T11:39:30 ICT" name="setupTest" finished-at="2022-10-21T11:39:42 ICT" duration-ms="12487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="TC_001()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@1de76cc7]" started-at="2022-10-21T11:39:42 ICT" name="TC_001" finished-at="2022-10-21T11:39:42 ICT" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@1de76cc7]" started-at="2022-10-21T11:39:42 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:42 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@1de76cc7]" started-at="2022-10-21T11:39:42 ICT" name="closeBrowser" finished-at="2022-10-21T11:39:43 ICT" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.ElementsPagesTest.LinksTest -->
+      <class name="TestCases.ElementsPagesTest.RadioButtonTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@54bff557]" started-at="2022-10-21T11:39:43 ICT" name="setupTest" finished-at="2022-10-21T11:39:52 ICT" duration-ms="8422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="TC_001()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@54bff557]" started-at="2022-10-21T11:39:52 ICT" name="TC_001" description="Select Yes, Impressive and verify both of them selected respectively. Then select No, verify the text still shows Impressive, because No can not be selected." finished-at="2022-10-21T11:39:52 ICT" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@54bff557]" started-at="2022-10-21T11:39:52 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:58 ICT" duration-ms="5537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@54bff557]" started-at="2022-10-21T11:39:58 ICT" name="closeBrowser" finished-at="2022-10-21T11:40:00 ICT" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.ElementsPagesTest.RadioButtonTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
