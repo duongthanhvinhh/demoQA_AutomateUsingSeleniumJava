@@ -97,6 +97,5 @@ public class TextBoxPage {
         Assert.assertTrue(driver.findElement(PermanentAddress_result).isDisplayed());
         return driver.findElement(PermanentAddress_result).getText();
     }
-
 }
 
