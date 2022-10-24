@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c7bc911-17e6-4ae4-a559-9cb9c3d58665" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/DynamicPropertiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation_Reports/Test-Automaton-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Automation_Reports/Test-Automaton-Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Common/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common/BaseSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/UploadDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/UploadDownloadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/ButtonsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/ButtonsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/UploadDownloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/UploadDownloadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/XML_Suites/ElementsPagesTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XML_Suites/ElementsPagesTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Common/BaseSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Common/BaseSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/DynamicPropertiesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/DynamicPropertiesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/UploadDownloadPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/UploadDownloadPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/TextBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/TextBoxTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/UploadDownloadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/UploadDownloadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/XML_Suites/ElementsPagesTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/XML_Suites/ElementsPagesTests.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +47,12 @@
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPages/ButtonsPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPages/CheckBoxPage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPages/TextBoxPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPages/UploadDownloadPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/ButtonsTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/CheckBoxTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/DynamicPropertiesTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/LinksTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/UploadDownloadTest.java" root0="SKIP_INSPECTION" />
@@ -51,20 +70,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\demoQA\" />
       <recent name="D:\demoQA\src\test\resources\XML_Suites" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/demoQA/src/test/resources/XML_Suites/ElementsPagesTests.xml">
+  <component name="RunManager" selected="TestNG.UploadDownloadTest">
     <configuration name="D:/demoQA/src/test/resources/XML_Suites/ElementsPagesTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoQA" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/XML_Suites/ElementsPagesTests.xml" />
@@ -75,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadDownloadTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicPropertiesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoQA" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +103,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases.ElementsPagesTest" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.ElementsPagesTest.UploadDownloadTest" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.ElementsPagesTest.DynamicPropertiesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicPropertiesTest.TC_001_verify_EnabledAfter5SButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.ElementsPagesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases.ElementsPagesTest" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.ElementsPagesTest.DynamicPropertiesTest" />
+      <option name="METHOD_NAME" value="TC_001_verify_EnabledAfter5SButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demoQA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.ElementsPagesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases.ElementsPagesTest" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.ElementsPagesTest.TextBoxTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -109,49 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadDownloadTest.TC_001_UploadFileSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.ElementsPagesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases.ElementsPagesTest" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.ElementsPagesTest.UploadDownloadTest" />
-      <option name="METHOD_NAME" value="TC_001_UploadFileSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadDownloadTest.TC_002_DownloadFileSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demoQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.ElementsPagesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases.ElementsPagesTest" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.ElementsPagesTest.UploadDownloadTest" />
-      <option name="METHOD_NAME" value="TC_002_DownloadFileSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/demoQA/src/test/resources/XML_Suites/ElementsPagesTests.xml" />
         <item itemvalue="TestNG.UploadDownloadTest" />
-        <item itemvalue="TestNG.UploadDownloadTest (2)" />
-        <item itemvalue="TestNG.UploadDownloadTest.TC_002_DownloadFileSuccessfully" />
-        <item itemvalue="TestNG.UploadDownloadTest.TC_001_UploadFileSuccessfully" />
+        <item itemvalue="TestNG.TextBoxTest" />
+        <item itemvalue="TestNG.DynamicPropertiesTest" />
+        <item itemvalue="TestNG.DynamicPropertiesTest.TC_001_verify_EnabledAfter5SButton" />
+        <item itemvalue="TestNG.D:/demoQA/src/test/resources/XML_Suites/ElementsPagesTests.xml" />
       </list>
     </recent_temporary>
   </component>

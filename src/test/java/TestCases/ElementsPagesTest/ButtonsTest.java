@@ -4,8 +4,6 @@ import Common.BaseSetup;
 import Pages.DashboardPage;
 import Pages.ElementsPage;
 import Pages.ElementsPages.ButtonsPage;
-import Pages.ElementsPages.RadioButtonPage;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -30,7 +28,6 @@ public class ButtonsTest extends BaseSetup {
     public void refreshWindow(){
         driver.navigate().refresh();
     }
-
     @AfterClass
     public void closeBrowser(){
         driver.close();

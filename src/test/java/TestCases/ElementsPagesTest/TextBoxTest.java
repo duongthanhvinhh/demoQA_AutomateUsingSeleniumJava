@@ -22,6 +22,9 @@ public class TextBoxTest extends BaseSetup {
         dashboardPage = new DashboardPage(driver);
         elementsPage = new ElementsPage(driver);
         textBoxPage = new TextBoxPage(driver);
+        dashboardPage.clickElements_btn();
+        elementsPage.clickTextBox();
+        elementsPage.accessTextBoxSuccessfully();
     }
 
     @AfterMethod
@@ -36,9 +39,6 @@ public class TextBoxTest extends BaseSetup {
     }
     @Test(description = "Verify can add submit a TextBox with full valid informations")
     public void TC_001_Submit_TextBox_with_fullInformation_Successfully(){
-        dashboardPage.clickElements_btn();
-        elementsPage.clickTextBox();
-        elementsPage.accessTextBoxSuccessfully();
         textBoxPage.inputFullName("VinhTester");
         textBoxPage.inputEmail("vinhdtvt1999@gmail.com");
         textBoxPage.inputCurrentAddress("Ho Chi Minh city");

@@ -93,7 +93,11 @@ public class ElementsPage {
     }
     public void clickDynamicProperties(){
         wait.until(ExpectedConditions.elementToBeClickable(DynamicProperties_btn));
-        driver.findElement(DynamicProperties_btn).click();
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", driver.findElement(DynamicProperties_btn));
+
+//        driver.findElement(DynamicProperties_btn).click();
     }
     public void accessDynamicsPropertiesSuccessfully(){
         Assert.assertEquals(driver.getCurrentUrl(),"https://demoqa.com/dynamic-properties");
