@@ -3,6 +3,7 @@ D:\demoQA\src\test\java\Pages\ElementsPages\TextBoxPage.java
 D:\demoQA\src\test\java\Utils\PropertiesFile.java
 D:\demoQA\src\test\java\Pages\ElementsPages\LinksPage.java
 D:\demoQA\src\test\java\Pages\InteractionsPage.java
+D:\demoQA\src\test\java\TestCases\ElementsPagesTest\UploadDownloadTest.java
 D:\demoQA\src\test\java\TestCases\ElementsPagesTest\TextBoxTest.java
 D:\demoQA\src\test\java\Pages\DashboardPage.java
 D:\demoQA\src\test\java\TestCases\ElementsPagesTest\RadioButtonTest.java
@@ -10,6 +11,7 @@ D:\demoQA\src\test\java\Utils\Log.java
 D:\demoQA\src\test\java\Common\BaseSetup.java
 D:\demoQA\src\test\java\Common\extentReport\ExtentTestManager.java
 D:\demoQA\src\test\java\Pages\ElementsPages\BrokenLinksImagesPage.java
+D:\demoQA\src\test\java\TestCases\ElementsPagesTest\DynamicPropertiesTest.java
 D:\demoQA\src\test\java\TestCases\ElementsPagesTest\CheckBoxTest.java
 D:\demoQA\src\test\java\Common\extentReport\ExtentManager.java
 D:\demoQA\src\test\java\Pages\ElementsPages\DynamicPropertiesPage.java

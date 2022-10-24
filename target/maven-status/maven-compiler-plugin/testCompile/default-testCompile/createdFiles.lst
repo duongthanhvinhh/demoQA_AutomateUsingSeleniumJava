@@ -1,4 +1,5 @@
 Utils\Log.class
+TestCases\ElementsPagesTest\DynamicPropertiesTest.class
 Pages\ElementsPages\ButtonsPage.class
 Pages\AlertsFrameWindowsPage.class
 Pages\ElementsPages\TextBoxPage.class
@@ -8,6 +9,7 @@ Common\RecordHelpers.class
 TestCases\DashboardTest.class
 Common\listeners\Listener.class
 TestCases\ElementsPagesTest\RadioButtonTest.class
+TestCases\ElementsPagesTest\UploadDownloadTest.class
 Pages\ElementsPages\CheckBoxPage.class
 Pages\FormsPage.class
 Pages\InteractionsPage.class

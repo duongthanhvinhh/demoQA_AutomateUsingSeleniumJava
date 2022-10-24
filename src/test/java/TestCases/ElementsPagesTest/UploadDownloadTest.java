@@ -9,11 +9,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import static Common.extentReport.ExtentTestManager.reporterLog;
-
 public class UploadDownloadTest extends BaseSetup {
-
     private DashboardPage dashboardPage;
     private UploadDownloadPage uploadDownloadPage;
     private ElementsPage elementsPage;

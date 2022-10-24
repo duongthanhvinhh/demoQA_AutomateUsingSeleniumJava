@@ -1,157 +1,681 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="11" failed="1" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-21T11:38:02 ICT" name="Command line suite" finished-at="2022-10-21T11:40:48 ICT" duration-ms="165356">
+  <suite started-at="2022-10-24T11:44:24 ICT" name="Command line suite" finished-at="2022-10-24T11:47:22 ICT" duration-ms="177467">
     <groups>
     </groups>
-    <test started-at="2022-10-21T11:38:02 ICT" name="Command line test" finished-at="2022-10-21T11:40:48 ICT" duration-ms="165356">
+    <test started-at="2022-10-24T11:44:24 ICT" name="Command line test" finished-at="2022-10-24T11:47:22 ICT" duration-ms="177467">
       <class name="TestCases.ElementsPagesTest.CheckBoxTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:08 ICT" name="setupTest" finished-at="2022-10-21T11:39:19 ICT" duration-ms="10352" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@57cf54e1]" started-at="2022-10-24T11:44:51 ICT" name="setupTest" finished-at="2022-10-24T11:45:17 ICT" duration-ms="25137" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h5[normalize-space()='Elements'] (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h5[normalize-space()='Elements'] (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at Pages.DashboardPage.clickElements_btn(DashboardPage.java:28)
+at TestCases.ElementsPagesTest.CheckBoxTest.setupTest(CheckBoxTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DTVINH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d22aa84f8b8c820f41cda705f45ad83, findElement {using=xpath, value=//h5[normalize-space()='Elements']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\dtvinh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64655/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d22aa84f8b8c820f41cda705f45ad83
+at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="TC_0001_Check_HomeBox_And_Verify_HomeBox_Checked()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:19 ICT" name="TC_0001_Check_HomeBox_And_Verify_HomeBox_Checked" finished-at="2022-10-21T11:39:19 ICT" duration-ms="125" status="PASS">
+        <test-method signature="TC_0001_Check_HomeBox_And_Verify_HomeBox_Checked()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@57cf54e1]" started-at="2022-10-24T11:45:17 ICT" name="TC_0001_Check_HomeBox_And_Verify_HomeBox_Checked" finished-at="2022-10-24T11:45:17 ICT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h5[normalize-space()='Elements'] (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h5[normalize-space()='Elements'] (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at Pages.DashboardPage.clickElements_btn(DashboardPage.java:28)
+at TestCases.ElementsPagesTest.CheckBoxTest.setupTest(CheckBoxTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DTVINH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d22aa84f8b8c820f41cda705f45ad83, findElement {using=xpath, value=//h5[normalize-space()='Elements']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\dtvinh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64655/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d22aa84f8b8c820f41cda705f45ad83
+at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_0001_Check_HomeBox_And_Verify_HomeBox_Checked -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:19 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:19 ICT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@57cf54e1]" started-at="2022-10-24T11:45:17 ICT" name="refreshWindow" finished-at="2022-10-24T11:45:17 ICT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method signature="TC_0002_CheckOfficeBox_And_Verify_OfficeBox_Checked()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:19 ICT" name="TC_0002_CheckOfficeBox_And_Verify_OfficeBox_Checked" finished-at="2022-10-21T11:39:25 ICT" duration-ms="6418" status="PASS">
+        <test-method signature="TC_0002_CheckOfficeBox_And_Verify_OfficeBox_Checked()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@57cf54e1]" started-at="2022-10-24T11:45:17 ICT" name="TC_0002_CheckOfficeBox_And_Verify_OfficeBox_Checked" finished-at="2022-10-24T11:45:17 ICT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h5[normalize-space()='Elements'] (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h5[normalize-space()='Elements'] (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at Pages.DashboardPage.clickElements_btn(DashboardPage.java:28)
+at TestCases.ElementsPagesTest.CheckBoxTest.setupTest(CheckBoxTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DTVINH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d22aa84f8b8c820f41cda705f45ad83, findElement {using=xpath, value=//h5[normalize-space()='Elements']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\dtvinh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64655/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d22aa84f8b8c820f41cda705f45ad83
+at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_0002_CheckOfficeBox_And_Verify_OfficeBox_Checked -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:25 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:27 ICT" duration-ms="1399" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@57cf54e1]" started-at="2022-10-24T11:45:17 ICT" name="refreshWindow" finished-at="2022-10-24T11:45:17 ICT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@485966cc]" started-at="2022-10-21T11:39:27 ICT" name="closeBrowser" finished-at="2022-10-21T11:39:30 ICT" duration-ms="3012" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.CheckBoxTest@57cf54e1]" started-at="2022-10-24T11:45:17 ICT" name="closeBrowser" finished-at="2022-10-24T11:45:17 ICT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.ElementsPagesTest.CheckBoxTest -->
-      <class name="TestCases.ElementsPagesTest.TextBoxTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:00 ICT" name="setupTest" finished-at="2022-10-21T11:40:12 ICT" duration-ms="12049" status="PASS">
+      <class name="TestCases.ElementsPagesTest.UploadDownloadTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.UploadDownloadTest@2805d709]" started-at="2022-10-24T11:46:49 ICT" name="setupTest" finished-at="2022-10-24T11:47:15 ICT" duration-ms="26026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="TC_001_Submit_TextBox_with_fullInformation_Successfully()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:12 ICT" name="TC_001_Submit_TextBox_with_fullInformation_Successfully" description="Verify can add submit a TextBox with full valid informations" finished-at="2022-10-21T11:40:13 ICT" duration-ms="853" status="PASS">
+        <test-method signature="TC_001_UploadFileSuccessfully()[pri:0, instance:TestCases.ElementsPagesTest.UploadDownloadTest@2805d709]" started-at="2022-10-24T11:47:15 ICT" name="TC_001_UploadFileSuccessfully" finished-at="2022-10-24T11:47:15 ICT" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_UploadFileSuccessfully -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.UploadDownloadTest@2805d709]" started-at="2022-10-24T11:47:15 ICT" name="refreshWindow" finished-at="2022-10-24T11:47:15 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method signature="TC_002_DownloadFileSuccessfully()[pri:0, instance:TestCases.ElementsPagesTest.UploadDownloadTest@2805d709]" started-at="2022-10-24T11:47:15 ICT" name="TC_002_DownloadFileSuccessfully" finished-at="2022-10-24T11:47:19 ICT" duration-ms="4064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_DownloadFileSuccessfully -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.UploadDownloadTest@2805d709]" started-at="2022-10-24T11:47:19 ICT" name="refreshWindow" finished-at="2022-10-24T11:47:20 ICT" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.UploadDownloadTest@2805d709]" started-at="2022-10-24T11:47:20 ICT" name="closeBrowser" finished-at="2022-10-24T11:47:22 ICT" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.ElementsPagesTest.UploadDownloadTest -->
+      <class name="TestCases.ElementsPagesTest.TextBoxTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:09 ICT" name="setupTest" finished-at="2022-10-24T11:46:25 ICT" duration-ms="16363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="TC_001_Submit_TextBox_with_fullInformation_Successfully()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:25 ICT" name="TC_001_Submit_TextBox_with_fullInformation_Successfully" description="Verify can add submit a TextBox with full valid informations" finished-at="2022-10-24T11:46:25 ICT" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001_Submit_TextBox_with_fullInformation_Successfully -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:13 ICT" name="refreshWindow" finished-at="2022-10-21T11:40:13 ICT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:25 ICT" name="refreshWindow" finished-at="2022-10-24T11:46:25 ICT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method signature="TC_002_Submit_TextBox_without_anyInformation_Successfully()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:13 ICT" name="TC_002_Submit_TextBox_without_anyInformation_Successfully" description="Verify nothing happen when click submit without any information" finished-at="2022-10-21T11:40:16 ICT" duration-ms="2779" status="PASS">
+        <test-method signature="TC_002_Submit_TextBox_without_anyInformation_Successfully()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:26 ICT" name="TC_002_Submit_TextBox_without_anyInformation_Successfully" description="Verify nothing happen when click submit without any information" finished-at="2022-10-24T11:46:34 ICT" duration-ms="8689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002_Submit_TextBox_without_anyInformation_Successfully -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:16 ICT" name="refreshWindow" finished-at="2022-10-21T11:40:16 ICT" duration-ms="604" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:34 ICT" name="refreshWindow" finished-at="2022-10-24T11:46:41 ICT" duration-ms="7011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method signature="TC_003_Cannot_Submit_TextBox_with_invalidEmailFormat()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:16 ICT" name="TC_003_Cannot_Submit_TextBox_with_invalidEmailFormat" description="Verify can not submit a TextBox with  invalid email format - Missing @ character" finished-at="2022-10-21T11:40:17 ICT" duration-ms="514" status="PASS">
+        <test-method signature="TC_003_Cannot_Submit_TextBox_with_invalidEmailFormat()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:41 ICT" name="TC_003_Cannot_Submit_TextBox_with_invalidEmailFormat" description="Verify can not submit a TextBox with  invalid email format - Missing @ character" finished-at="2022-10-24T11:46:42 ICT" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003_Cannot_Submit_TextBox_with_invalidEmailFormat -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:17 ICT" name="refreshWindow" finished-at="2022-10-21T11:40:17 ICT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:42 ICT" name="refreshWindow" finished-at="2022-10-24T11:46:45 ICT" duration-ms="3633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method signature="TC_004_Submit_TextBox_without_FullName_Successfully()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:17 ICT" name="TC_004_Submit_TextBox_without_FullName_Successfully" description="Verify can add a TextBox without FullName" finished-at="2022-10-21T11:40:20 ICT" duration-ms="3404" status="PASS">
+        <test-method signature="TC_004_Submit_TextBox_without_FullName_Successfully()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:45 ICT" name="TC_004_Submit_TextBox_without_FullName_Successfully" description="Verify can add a TextBox without FullName" finished-at="2022-10-24T11:46:46 ICT" duration-ms="576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_004_Submit_TextBox_without_FullName_Successfully -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:20 ICT" name="refreshWindow" finished-at="2022-10-21T11:40:45 ICT" duration-ms="24252" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:46 ICT" name="refreshWindow" finished-at="2022-10-24T11:46:47 ICT" duration-ms="1254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@593aaf41]" started-at="2022-10-21T11:40:45 ICT" name="closeBrowser" finished-at="2022-10-21T11:40:48 ICT" duration-ms="3165" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.TextBoxTest@6e0f5f7f]" started-at="2022-10-24T11:46:47 ICT" name="closeBrowser" finished-at="2022-10-24T11:46:49 ICT" duration-ms="1677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.ElementsPagesTest.TextBoxTest -->
       <class name="TestCases.ElementsPagesTest.ButtonsTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:02 ICT" name="setupTest" finished-at="2022-10-21T11:38:12 ICT" duration-ms="10130" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:24 ICT" name="setupTest" finished-at="2022-10-24T11:44:45 ICT" duration-ms="20784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="TC_001_Click_3Buttons_respectively()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:12 ICT" name="TC_001_Click_3Buttons_respectively" description="Click 3 buttons &#039;Double Click Me&#039;, &#039;Right Click Me&#039;, and &#039;Click Me&#039; respectively and verify all of them selected " finished-at="2022-10-21T11:38:13 ICT" duration-ms="562" status="PASS">
+        <test-method signature="TC_001_Click_3Buttons_respectively()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:45 ICT" name="TC_001_Click_3Buttons_respectively" description="Click 3 buttons &#039;Double Click Me&#039;, &#039;Right Click Me&#039;, and &#039;Click Me&#039; respectively and verify all of them selected " finished-at="2022-10-24T11:44:46 ICT" duration-ms="802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001_Click_3Buttons_respectively -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:13 ICT" name="refreshWindow" finished-at="2022-10-21T11:38:36 ICT" duration-ms="23318" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:46 ICT" name="refreshWindow" finished-at="2022-10-24T11:44:49 ICT" duration-ms="3105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method signature="TC_002_Click_DoubleClick()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:36 ICT" name="TC_002_Click_DoubleClick" finished-at="2022-10-21T11:38:37 ICT" duration-ms="176" status="PASS">
+        <test-method signature="TC_002_Click_DoubleClick()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:49 ICT" name="TC_002_Click_DoubleClick" finished-at="2022-10-24T11:44:49 ICT" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002_Click_DoubleClick -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:37 ICT" name="refreshWindow" finished-at="2022-10-21T11:38:37 ICT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:49 ICT" name="refreshWindow" finished-at="2022-10-24T11:44:50 ICT" duration-ms="868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method signature="TC_003_Click_RightClick()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:37 ICT" name="TC_003_Click_RightClick" finished-at="2022-10-21T11:38:38 ICT" duration-ms="974" status="PASS">
+        <test-method signature="TC_003_Click_RightClick()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:50 ICT" name="TC_003_Click_RightClick" finished-at="2022-10-24T11:44:51 ICT" duration-ms="1029" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DTVINH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c36030ee3598091ffd94e16ed92d0098, findElement {using=id, value=rightClickBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\dtvinh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64525/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c36030ee3598091ffd94e16ed92d0098]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DTVINH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c36030ee3598091ffd94e16ed92d0098, findElement {using=id, value=rightClickBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\dtvinh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64525/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c36030ee3598091ffd94e16ed92d0098
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at Pages.ElementsPages.ButtonsPage.clickRightClick(ButtonsPage.java:39)
+at TestCases.ElementsPagesTest.ButtonsTest.TC_003_Click_RightClick(ButtonsTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003_Click_RightClick -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:38:38 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:05 ICT" duration-ms="27505" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:51 ICT" name="refreshWindow" finished-at="2022-10-24T11:44:51 ICT" duration-ms="6" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DTVINH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c36030ee3598091ffd94e16ed92d0098, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\dtvinh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64525/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c36030ee3598091ffd94e16ed92d0098]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DTVINH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c36030ee3598091ffd94e16ed92d0098, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\dtvinh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64525/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c36030ee3598091ffd94e16ed92d0098
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1066)
+at TestCases.ElementsPagesTest.ButtonsTest.refreshWindow(ButtonsTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:785)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:761)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method signature="TC_004_Click_ClickMe()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:39:05 ICT" name="TC_004_Click_ClickMe" finished-at="2022-10-21T11:39:05 ICT" duration-ms="56" status="PASS">
+        <test-method signature="TC_004_Click_ClickMe()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:51 ICT" name="TC_004_Click_ClickMe" finished-at="2022-10-24T11:44:51 ICT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DTVINH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c36030ee3598091ffd94e16ed92d0098, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\dtvinh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64525/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c36030ee3598091ffd94e16ed92d0098]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DTVINH', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c36030ee3598091ffd94e16ed92d0098, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\dtvinh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64525/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c36030ee3598091ffd94e16ed92d0098
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1066)
+at TestCases.ElementsPagesTest.ButtonsTest.refreshWindow(ButtonsTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:785)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:761)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_004_Click_ClickMe -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:39:05 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:05 ICT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:51 ICT" name="refreshWindow" finished-at="2022-10-24T11:44:51 ICT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@e15b7e8]" started-at="2022-10-21T11:39:05 ICT" name="closeBrowser" finished-at="2022-10-21T11:39:08 ICT" duration-ms="3061" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.ButtonsTest@342c38f8]" started-at="2022-10-24T11:44:51 ICT" name="closeBrowser" finished-at="2022-10-24T11:44:51 ICT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.ElementsPagesTest.ButtonsTest -->
       <class name="TestCases.ElementsPagesTest.LinksTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@1de76cc7]" started-at="2022-10-21T11:39:30 ICT" name="setupTest" finished-at="2022-10-21T11:39:42 ICT" duration-ms="12487" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@37d4349f]" started-at="2022-10-24T11:45:38 ICT" name="setupTest" finished-at="2022-10-24T11:45:47 ICT" duration-ms="8392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="TC_001()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@1de76cc7]" started-at="2022-10-21T11:39:42 ICT" name="TC_001" finished-at="2022-10-21T11:39:42 ICT" duration-ms="308" status="PASS">
+        <test-method signature="TC_001()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@37d4349f]" started-at="2022-10-24T11:45:47 ICT" name="TC_001" finished-at="2022-10-24T11:45:47 ICT" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@1de76cc7]" started-at="2022-10-21T11:39:42 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:42 ICT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@37d4349f]" started-at="2022-10-24T11:45:47 ICT" name="refreshWindow" finished-at="2022-10-24T11:45:55 ICT" duration-ms="7546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@1de76cc7]" started-at="2022-10-21T11:39:42 ICT" name="closeBrowser" finished-at="2022-10-21T11:39:43 ICT" duration-ms="1143" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.LinksTest@37d4349f]" started-at="2022-10-24T11:45:55 ICT" name="closeBrowser" finished-at="2022-10-24T11:45:56 ICT" duration-ms="1027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.ElementsPagesTest.LinksTest -->
       <class name="TestCases.ElementsPagesTest.RadioButtonTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@54bff557]" started-at="2022-10-21T11:39:43 ICT" name="setupTest" finished-at="2022-10-21T11:39:52 ICT" duration-ms="8422" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@434a63ab]" started-at="2022-10-24T11:45:56 ICT" name="setupTest" finished-at="2022-10-24T11:46:04 ICT" duration-ms="8435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="TC_001()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@54bff557]" started-at="2022-10-21T11:39:52 ICT" name="TC_001" description="Select Yes, Impressive and verify both of them selected respectively. Then select No, verify the text still shows Impressive, because No can not be selected." finished-at="2022-10-21T11:39:52 ICT" duration-ms="368" status="PASS">
+        <test-method signature="TC_001()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@434a63ab]" started-at="2022-10-24T11:46:04 ICT" name="TC_001" description="Select Yes, Impressive and verify both of them selected respectively. Then select No, verify the text still shows Impressive, because No can not be selected." finished-at="2022-10-24T11:46:05 ICT" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@54bff557]" started-at="2022-10-21T11:39:52 ICT" name="refreshWindow" finished-at="2022-10-21T11:39:58 ICT" duration-ms="5537" status="PASS">
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@434a63ab]" started-at="2022-10-24T11:46:05 ICT" name="refreshWindow" finished-at="2022-10-24T11:46:08 ICT" duration-ms="3163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refreshWindow -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@54bff557]" started-at="2022-10-21T11:39:58 ICT" name="closeBrowser" finished-at="2022-10-21T11:40:00 ICT" duration-ms="1812" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.RadioButtonTest@434a63ab]" started-at="2022-10-24T11:46:08 ICT" name="closeBrowser" finished-at="2022-10-24T11:46:09 ICT" duration-ms="961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.ElementsPagesTest.RadioButtonTest -->
+      <class name="TestCases.ElementsPagesTest.DynamicPropertiesTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:TestCases.ElementsPagesTest.DynamicPropertiesTest@5b03b9fe]" started-at="2022-10-24T11:45:17 ICT" name="setupTest" finished-at="2022-10-24T11:45:28 ICT" duration-ms="11356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="TC_001_verify_EnabledAfter5SButton()[pri:0, instance:TestCases.ElementsPagesTest.DynamicPropertiesTest@5b03b9fe]" started-at="2022-10-24T11:45:28 ICT" name="TC_001_verify_EnabledAfter5SButton" finished-at="2022-10-24T11:45:37 ICT" duration-ms="9055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_verify_EnabledAfter5SButton -->
+        <test-method is-config="true" signature="refreshWindow()[pri:0, instance:TestCases.ElementsPagesTest.DynamicPropertiesTest@5b03b9fe]" started-at="2022-10-24T11:45:37 ICT" name="refreshWindow" finished-at="2022-10-24T11:45:37 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.ElementsPagesTest.DynamicPropertiesTest@5b03b9fe]" started-at="2022-10-24T11:45:37 ICT" name="closeBrowser" finished-at="2022-10-24T11:45:38 ICT" duration-ms="1440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.ElementsPagesTest.DynamicPropertiesTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>

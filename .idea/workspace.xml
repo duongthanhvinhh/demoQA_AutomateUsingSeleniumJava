@@ -5,25 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c7bc911-17e6-4ae4-a559-9cb9c3d58665" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/DynamicPropertiesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation_Reports/Test-Automaton-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Automation_Reports/Test-Automaton-Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Common/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common/BaseSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/UploadDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/UploadDownloadPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/ButtonsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/ButtonsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/UploadDownloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/UploadDownloadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/XML_Suites/ElementsPagesTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XML_Suites/ElementsPagesTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Common/BaseSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Common/BaseSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/DynamicPropertiesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/DynamicPropertiesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/UploadDownloadPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/UploadDownloadPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/TextBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/TextBoxTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/UploadDownloadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/UploadDownloadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/XML_Suites/ElementsPagesTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/XML_Suites/ElementsPagesTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demoQA-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.ButtonsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.ButtonsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.CheckBoxTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.CheckBoxTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.LinksTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.LinksTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.RadioButtonTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.RadioButtonTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.TextBoxTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.TextBoxTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +88,7 @@
       <recent name="D:\demoQA\src\test\resources\XML_Suites" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UploadDownloadTest">
+  <component name="RunManager" selected="TestNG.TextBoxTest">
     <configuration name="D:/demoQA/src/test/resources/XML_Suites/ElementsPagesTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoQA" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/XML_Suites/ElementsPagesTests.xml" />
@@ -165,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UploadDownloadTest" />
         <item itemvalue="TestNG.TextBoxTest" />
+        <item itemvalue="TestNG.UploadDownloadTest" />
         <item itemvalue="TestNG.DynamicPropertiesTest" />
         <item itemvalue="TestNG.DynamicPropertiesTest.TC_001_verify_EnabledAfter5SButton" />
         <item itemvalue="TestNG.D:/demoQA/src/test/resources/XML_Suites/ElementsPagesTests.xml" />
