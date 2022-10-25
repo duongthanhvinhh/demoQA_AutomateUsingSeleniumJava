@@ -5,71 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c7bc911-17e6-4ae4-a559-9cb9c3d58665" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/BrokenLinksImagesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/WebTablesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/XML_Suites/ParallelDynamicPropertiesTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation_Reports/Test-Automaton-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Automation_Reports/Test-Automaton-Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Common/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Common/BaseSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/BrokenLinksImagesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/BrokenLinksImagesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/DynamicPropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/DynamicPropertiesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vinhtester/com/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vinhtester/com/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.ButtonsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.ButtonsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.CheckBoxTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.CheckBoxTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.DynamicPropertiesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.DynamicPropertiesTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.LinksTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.LinksTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.RadioButtonTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.RadioButtonTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.TextBoxTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.TextBoxTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.UploadDownloadTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestCases.ElementsPagesTest.UploadDownloadTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter13653000959734782029.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Common/BaseSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Common/BaseSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Common/RecordHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Common/RecordHelpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Common/extentReport/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Common/extentReport/ExtentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Common/extentReport/ExtentTestManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Common/extentReport/ExtentTestManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Common/listeners/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Common/listeners/Listener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/AlertsFrameWindowsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/AlertsFrameWindowsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/BookStoreAppPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/BookStoreAppPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/DashboardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/BrokenLinksImagesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/BrokenLinksImagesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/ButtonsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/ButtonsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/CheckBoxPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/CheckBoxPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/DynamicPropertiesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/DynamicPropertiesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/LinksPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/LinksPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/RadioButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/RadioButtonPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/TextBoxPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/TextBoxPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/UploadDownloadPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/UploadDownloadPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/WebTablesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/WebTablesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/FormsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/FormsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/InteractionsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/InteractionsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/WidgetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/WidgetsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/DashboardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/DashboardTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/ButtonsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/ButtonsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/CheckBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/CheckBoxTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/DynamicPropertiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/DynamicPropertiesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/LinksTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/LinksTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/RadioButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/RadioButtonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/TextBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/TextBoxTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/UploadDownloadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/UploadDownloadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/PropertiesFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/PropertiesFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/clearOldDatas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/clearOldDatas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/BrokenLinksImagesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/BrokenLinksImagesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/RadioButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/RadioButtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/WebTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/WebTablesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
