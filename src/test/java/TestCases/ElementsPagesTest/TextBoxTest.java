@@ -84,3 +84,5 @@ public class TextBoxTest extends BaseSetup {
         Assert.assertEquals(textBoxPage.PermanentAddressValueAdded(),"Permananet Address :Quang Ngai city");
     }
 }
+
+

@@ -28,6 +28,8 @@ public class DynamicPropertiesPage {
     }
     By enableAfter_btn = By.id("enableAfter");
     By colorChange_btn = By.id("colorChange");
+    String originalColor = "rgba(255, 255, 255, 1)";
+    String finalColor = "rgba(220, 53, 69, 1)";
     By visibleAfter = By.id("visibleAfter");
     public void verifyEnableAfter5S_button(){
         reporterLog("Set wait explicit to 4 seconds");
@@ -44,5 +46,17 @@ public class DynamicPropertiesPage {
 //        reporterLog("Verify EnableAfter5s button is displayed when the time still not reach 5s");
 ////        Assert.assertTrue(driver.findElement(enableAfter_btn).isDisplayed());
 //        Assert.assertTrue(driver.findElement(enableAfter_btn).isEnabled());
+    }
+
+    public String getColorTextOfButtonColorChange() {
+        return driver.findElement(colorChange_btn).getCssValue("color");
+//        System.out.println(driver.findElement(colorChange_btn).getCssValue("color"));
+    }
+    public void verifyOriginalColorCorrect(){
+        Assert.assertEquals(getColorTextOfButtonColorChange(),originalColor);
+    }
+    public void verifyfinalColorCorrect(){
+        sleep(7000);
+        Assert.assertEquals(getColorTextOfButtonColorChange(),finalColor);
     }
 }

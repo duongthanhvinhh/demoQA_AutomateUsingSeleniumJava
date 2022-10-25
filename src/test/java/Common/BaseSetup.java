@@ -27,22 +27,26 @@ public class BaseSetup {
 
     public static WebDriver setDriver(String browserType) {
         switch (browserType.trim().toLowerCase()) {
-            case "chrome" -> {
+            case "chrome":{
                 driver = initChromeDriver();
                 wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+                break;
             }
-            case "firefox" -> {
+            case "firefox":{
                 driver = initFirefoxDriver();
                 wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+                break;
             }
-            case "edge" -> {
+            case "edge":{
                 driver = initEdgeDriver();
                 wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+                break;
             }
-            default -> {
+            default:{
                 Log.info("Browser: " + browserType + " is invalid, Launching Chrome as default browser");
                 driver = initChromeDriver();
                 wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+                break;
             }
         }
         return driver;
