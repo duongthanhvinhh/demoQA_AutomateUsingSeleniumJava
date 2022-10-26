@@ -5,10 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c7bc911-17e6-4ae4-a559-9cb9c3d58665" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/BrokenLinksImagesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/BrokenLinksImagesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/RadioButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/RadioButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/WebTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/WebTablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation_Reports/Test-Automaton-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Automation_Reports/Test-Automaton-Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/ButtonsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/ButtonsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/CheckBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/CheckBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/LinksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/LinksPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/RadioButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/RadioButtonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/TextBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/TextBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/UploadDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ElementsPages/UploadDownloadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/DashboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/DashboardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/UploadDownloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/UploadDownloadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/clearOldDatas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/clearOldDatas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/XML_Suites/ElementsPagesTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XML_Suites/ElementsPagesTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/BrokenLinksImagesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/BrokenLinksImagesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/DynamicPropertiesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ElementsPages/DynamicPropertiesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/RadioButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ElementsPagesTest/RadioButtonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/clearOldDatas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/clearOldDatas.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +45,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/Common/BaseSetup.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/Pages/AlertsFrameWindowsPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/DashboardPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPages/ButtonsPage.java" root0="SKIP_INSPECTION" />
@@ -34,18 +53,20 @@
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPages/DynamicPropertiesPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPages/TextBoxPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/Pages/ElementsPages/UploadDownloadPage.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/BrokenLinksImagesTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/ButtonsTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/CheckBoxTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/DynamicPropertiesTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/LinksTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/TextBoxTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCases/ElementsPagesTest/UploadDownloadTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/Utils/clearOldDatas.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2GNhK6voGmxe4VKFY3slMk35c6D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,23 +75,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31264368",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\demoQA\" />
       <recent name="D:\demoQA\src\test\resources\XML_Suites" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DynamicPropertiesTest">
+  <component name="RunManager" selected="TestNG.UploadDownloadTest">
     <configuration name="D:/demoQA/src/test/resources/XML_Suites/ElementsPagesTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demoQA" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/XML_Suites/ElementsPagesTests.xml" />
@@ -145,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UploadDownloadTest" />
+        <item itemvalue="TestNG.D:/demoQA/src/test/resources/XML_Suites/ElementsPagesTests.xml" />
         <item itemvalue="TestNG.DynamicPropertiesTest" />
         <item itemvalue="TestNG.D:/demoQA/src/test/resources/XML_Suites/ParallelDynamicPropertiesTest.xml" />
         <item itemvalue="TestNG.DynamicPropertiesTest.TC_003_getOriginalColorOfColorChangeBtn" />
-        <item itemvalue="TestNG.D:/demoQA/src/test/resources/XML_Suites/ElementsPagesTests.xml" />
-        <item itemvalue="TestNG.UploadDownloadTest" />
       </list>
     </recent_temporary>
   </component>

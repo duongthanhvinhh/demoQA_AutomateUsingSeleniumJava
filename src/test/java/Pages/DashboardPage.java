@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+import static Common.extentReport.ExtentTestManager.reporterLog;
+
 public class DashboardPage {
     private WebDriver driver;
     private WebDriverWait wait;
@@ -25,29 +27,41 @@ public class DashboardPage {
     By BookStoreApp_btn = By.xpath("//*[name()='path' and contains(@d,'M169 57v43')]");
 
     public void clickElements_btn(){
+        reporterLog("Wait for Elements Button displayed");
         wait.until(ExpectedConditions.visibilityOfElementLocated(Elements_btn));
+        reporterLog("Click Elements Button");
         driver.findElement(Elements_btn).click();
     }
 
     public void clickForms_btn(){
+        reporterLog("Wait for Forms Button displayed");
         wait.until(ExpectedConditions.visibilityOfElementLocated(Forms_btn));
+        reporterLog("Click Forms Button");
         driver.findElement(Forms_btn).click();
     }
     public void clickAlerts_Frame_Windows_btn(){
+        reporterLog("Wait for AlertsFrameWindow Button displayed");
         wait.until(ExpectedConditions.visibilityOfElementLocated(Alerts_Frame_Windows_btn));
+        reporterLog("Click AlertsFrameWindow Button");
         driver.findElement(Alerts_Frame_Windows_btn).click();
     }
 
     public void clickWidgets_btn(){
+        reporterLog("Wait for Widgets Button displayed");
         wait.until(ExpectedConditions.visibilityOfElementLocated(Widgets_btn));
+        reporterLog("Click Widgets Button");
         driver.findElement(Widgets_btn).click();
     }
     public void clickInteractions_btn(){
+        reporterLog("Wait for Interactions Button displayed");
         wait.until(ExpectedConditions.visibilityOfElementLocated(Interactions_btn));
+        reporterLog("Click Interactions Button");
         driver.findElement(Interactions_btn).click();
     }
     public void clickBookStoreApp_btn(){
+        reporterLog("Wait for BookStoreApp Button displayed");
         wait.until(ExpectedConditions.visibilityOfElementLocated(BookStoreApp_btn));
+        reporterLog("Click BookStoreApp Button");
         driver.findElement(BookStoreApp_btn).click();
     }
 }

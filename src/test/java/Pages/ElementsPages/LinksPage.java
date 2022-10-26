@@ -10,6 +10,8 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.Objects;
 
+import static Common.extentReport.ExtentTestManager.reporterLog;
+
 public class LinksPage {
     private WebDriver driver;
     private WebDriverWait wait;
@@ -43,57 +45,75 @@ public class LinksPage {
 
     By callAPILinkResponse = By.id("linkResponse");
     public void clickHomeLink(){
+        reporterLog("Click HomeLink");
         driver.findElement(Home_Link).click();
     }
     public void IsHomeLinkOpen(){
+        reporterLog("Verify HomeLink is clicked");
         Assert.assertEquals(driver.getCurrentUrl(), HomeAndHomewd7PB_URL);
     }
     public void clickHomewd7PBLink(){
+        reporterLog("Click Homewd7PBLink");
         driver.findElement(Homewd7PB_Link).click();
     }
     public void IsHomewd7PBLinkOpen(){
+        reporterLog("Verify Homewd7PBLink is clicked");
         Assert.assertEquals(driver.getCurrentUrl(), HomeAndHomewd7PB_URL);
     }
     public void clickCreated(){
+        reporterLog("Click CreatedLink");
         driver.findElement(CreatedLink).click();
     }
-    public boolean CreatedAPIResponseCorrect(){
-        return Objects.equals(driver.findElement(callAPILinkResponse).getText(),CreatedAPI_txt);
+    public void CreatedAPIResponseCorrect(){
+        reporterLog("Verify Returned CreatedAPIResponseCorrect");
+        Assert.assertEquals(driver.findElement(callAPILinkResponse),CreatedAPI_txt);
     }
     public void clickNoContent(){
+        reporterLog("Click NoContent");
         driver.findElement(NoContentLink).click();
     }
-    public boolean NoContentAPIResponseCorrect(){
-        return Objects.equals(driver.findElement(callAPILinkResponse).getText(),NoContentAPI_txt);
+    public void NoContentAPIResponseCorrect(){
+        reporterLog("Verify Returned NoContentAPIResponseCorrect");
+        Assert.assertEquals(driver.findElement(callAPILinkResponse),NoContentAPI_txt);
     }
     public void clickMoved(){
+        reporterLog("Click MovedLink");
         driver.findElement(MovedLink).click();
     }
-    public boolean MovedAPIResponseCorrect(){
-        return Objects.equals(driver.findElement(callAPILinkResponse).getText(),MovedAPI_txt);
+    public void MovedAPIResponseCorrect(){
+        reporterLog("Verify Returned MovedAPIResponseCorrect");
+        Assert.assertEquals(driver.findElement(callAPILinkResponse),MovedAPI_txt);
     }
     public void clickBadRequest(){
+        reporterLog("Click BadRequest");
         driver.findElement(BadRequestLink).click();
     }
-    public boolean BadRequestAPIResponseCorrect(){
-        return Objects.equals(driver.findElement(callAPILinkResponse).getText(),BadRequestAPI_txt);
+    public void BadRequestAPIResponseCorrect(){
+        reporterLog("Verify Returned BadRequestAPIResponseCorrect");
+        Assert.assertEquals(driver.findElement(callAPILinkResponse),BadRequestAPI_txt);
     }
     public void clickUnauthorized(){
+        reporterLog("Click UnauthorizedLink");
         driver.findElement(UnauthorizedLink).click();
     }
-    public boolean UnauthorizedAPIResponseCorrect(){
-        return Objects.equals(driver.findElement(callAPILinkResponse).getText(),UnauthorizedAPI_txt);
+    public void UnauthorizedAPIResponseCorrect(){
+        reporterLog("Verify Returned UnauthorizedAPIResponseCorrect");
+        Assert.assertEquals(driver.findElement(callAPILinkResponse),UnauthorizedAPI_txt);
     }
     public void clickForbidden(){
+        reporterLog("Click ForbidenLink");
         driver.findElement(ForbiddenLink).click();
     }
-    public boolean ForbiddenAPIResponseCorrect(){
-        return Objects.equals(driver.findElement(callAPILinkResponse).getText(),ForbiddenAPI_txt);
+    public void ForbiddenAPIResponseCorrect(){
+        reporterLog("Verify Returned ForbiddenAPIResponseCorrect");
+        Assert.assertEquals(driver.findElement(callAPILinkResponse),ForbiddenAPI_txt);
     }
     public void clickNotFound(){
+        reporterLog("Click NotFoundLink");
         driver.findElement(NotFoundLink).click();
     }
-    public boolean NotFoundAPIResponseCorrect(){
-        return Objects.equals(driver.findElement(callAPILinkResponse).getText(),NotFoundAPI_txt);
+    public void NotFoundAPIResponseCorrect(){
+        reporterLog("Verify Returned NotFoundAPIResponseCorrect");
+        Assert.assertEquals(driver.findElement(callAPILinkResponse),NotFoundAPI_txt);
     }
 }

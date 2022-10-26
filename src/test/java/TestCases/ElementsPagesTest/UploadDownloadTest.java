@@ -22,8 +22,8 @@ public class UploadDownloadTest extends BaseSetup {
         dashboardPage = new DashboardPage(driver);
         elementsPage = new ElementsPage(driver);
         uploadDownloadPage = new UploadDownloadPage(driver);
-        reporterLog("In Dashboard Page, click Elements");
-        dashboardPage.clickElements_btn();
+//        reporterLog("In Dashboard Page, click Elements");
+//        dashboardPage.clickElements_btn();
         reporterLog("In Elements Page, click UploadAndDownload");
         elementsPage.clickUploadAndDownload();
         reporterLog("Verify access UploadAndDownload page successfully");

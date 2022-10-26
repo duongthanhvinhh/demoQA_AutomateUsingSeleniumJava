@@ -34,7 +34,7 @@ public class UploadDownloadPage {
     public void clickUploadFileAndVerifyUploadSuccess(String filePath,String fileName){
         reporterLog("Wait for UploadFile button displayed");
         wait.until(ExpectedConditions.visibilityOfElementLocated(UploadFile_btn));
-        reporterLog("Send filePath "+ filePath+fileName + "to upload the file");
+        reporterLog("Send filePath "+ filePath+fileName + " to upload the file");
         driver.findElement(UploadFile_btn).sendKeys(filePath+fileName);
         reporterLog("Verify File uploaded successfully");
         Assert.assertEquals(driver.findElement(UploadedFilePath).getText(),"C:\\fakepath\\"+ fileName);

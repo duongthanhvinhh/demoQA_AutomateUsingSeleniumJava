@@ -7,6 +7,8 @@ import Pages.ElementsPages.TextBoxPage;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import static Common.extentReport.ExtentTestManager.reporterLog;
+
 public class TextBoxTest extends BaseSetup {
     private DashboardPage dashboardPage;
     private TextBoxPage textBoxPage;
@@ -78,9 +80,13 @@ public class TextBoxTest extends BaseSetup {
         textBoxPage.inputCurrentAddress("Ho Chi Minh city");
         textBoxPage.inputPermanentAddress("Quang Ngai city");
         textBoxPage.clickSubmit();
+        reporterLog("Verify fullName displayed");
         Assert.assertFalse(textBoxPage.FullNameDisplayed());
+        reporterLog("Verify Email value added correctly");
         Assert.assertEquals(textBoxPage.EmailValueAdded(),"Email:vinhdtvt1999@gmail.com");
+        reporterLog("Verify CurrentAddress value added correctly");
         Assert.assertEquals(textBoxPage.CurrentAddressValueAdded(),"Current Address :Ho Chi Minh city");
+        reporterLog("Verify PermanentAddress value added correctly");
         Assert.assertEquals(textBoxPage.PermanentAddressValueAdded(),"Permananet Address :Quang Ngai city");
     }
 }

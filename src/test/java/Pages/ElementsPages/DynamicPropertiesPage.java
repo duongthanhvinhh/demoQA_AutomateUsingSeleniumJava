@@ -49,14 +49,18 @@ public class DynamicPropertiesPage {
     }
 
     public String getColorTextOfButtonColorChange() {
+        reporterLog("CSS value of colorChange_btn is: "+ driver.findElement(colorChange_btn).getCssValue("color"));
         return driver.findElement(colorChange_btn).getCssValue("color");
 //        System.out.println(driver.findElement(colorChange_btn).getCssValue("color"));
     }
     public void verifyOriginalColorCorrect(){
+        reporterLog("Verify CSS value returned is equals to originalColor's CSS value");
         Assert.assertEquals(getColorTextOfButtonColorChange(),originalColor);
     }
     public void verifyfinalColorCorrect(){
+        reporterLog("Sleep 7s");
         sleep(7000);
+        reporterLog("Verify CSS value returned is equals to finalColor's CSS value");
         Assert.assertEquals(getColorTextOfButtonColorChange(),finalColor);
     }
 }

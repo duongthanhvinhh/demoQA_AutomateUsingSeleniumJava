@@ -5,11 +5,11 @@
         <listener class-name="Common.listeners.Listener"/>
     </listeners>
     <test name="LogIn Test">
-<!--        <packages>-->
-<!--            <package name="TestCases.ElementsPagesTest"/>-->
-<!--        </packages>-->
-        <classes>
-            <class name="TestCases.ElementsPagesTest.UploadDownloadTest"/>
-        </classes>
+        <packages>
+            <package name="TestCases.ElementsPagesTest"/>
+        </packages>
+<!--        <classes>-->
+<!--            <class name="TestCases.ElementsPagesTest.UploadDownloadTest"/>-->
+<!--        </classes>-->
     </test>
 </suite>
